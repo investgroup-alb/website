@@ -591,7 +591,7 @@ background:rgb(107, 120, 133) ;
     display:inline-block;
     margin:20px;
     margin-top:50px;
-
+    z-index:-2;
     box-shadow: 10px 10px rgb(48, 47, 47);
 }
 .info h3{
@@ -614,9 +614,9 @@ background:rgb(107, 120, 133) ;
 /* #region border */
 .border{
     background:transparent;
-    width:270px;
+    width:300px;
     border:2px solid rgb(162, 210, 255);
-    height:270px;
+    height:300px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     position:absolute;
@@ -629,6 +629,7 @@ background:rgb(107, 120, 133) ;
     border-right-color: rgb(142, 198, 250);
     border-top-color:rgb(120, 188, 252);
     border-right-color:rgb(93, 177, 255);
+    z-index:-1;
 }
 /* #endregion */ 
 
@@ -643,7 +644,7 @@ background:rgb(107, 120, 133) ;
                     border-radius: 25px;
                     position: absolute;
                     margin-top:45px;
-                    
+                    z-index:-1;
                 }
                 .acontent{
                     width: 185px;
@@ -734,7 +735,7 @@ background:rgb(107, 120, 133) ;
   border-width: 24px 24px 80px;
   background-color: black;
   margin-left:270px;
-
+z-index: -1;
 }
 
 /* The keyboard of the laptop */
@@ -799,7 +800,8 @@ background:rgb(107, 120, 133) ;
     <nav class="nav">
       <div class="container">
           <div class="logo">
-               <a href="index.html" style="font-family:'Courier New', Courier, monospace;">INVESTGROUP</a>
+               <a href="index.html" style="font-family:'Courier New', Courier, monospace;">INVESTGROUP </a>
+            
         
           </div>
           <div id="mainListDiv" class="main_list">
@@ -877,7 +879,7 @@ background:rgb(107, 120, 133) ;
     </center>
 
 
-
+    <br><br><br><br><br><br>
     <script>
 
 $('.navTrigger').click(function () {
