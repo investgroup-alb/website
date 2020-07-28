@@ -158,6 +158,7 @@ header{
      flex-flow: row wrap;
      display: -webkit-box;
      display: flex;
+   
    }
    header div{
      -webkit-box-flex:auto;
@@ -169,25 +170,24 @@ header{
      border-radius: 20px;
      transition: 0.1s;
      margin-bottom:25px;
-     
+
  box-shadow: 7px 7px 5px grey;
 
    }
+   header div img:hover{
+       height:350px;
+   }
+   
    header div img{
      width: 100%;
      height: 240px;
      border-radius: 20px;
-     
+     transition:0.5s;
    }
-   header div:hover{
- border-top-color:#77ff00;
- border-left-color:#77ff80;
- border-right-color:#77ff80;
- border-bottom-color: #77fff0;
-   }
+
    @media screen and (max-width: 500px){
      header div{
-       margin: 5px;
+       margin: 25px;
      }
      header{
        padding:0;
