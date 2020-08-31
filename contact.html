@@ -147,57 +147,6 @@ section{
 
 /* #endregion */
 
-/* #region Header */
-header{
-     margin: 5px;
-     font-size: 0;
-     display: -ms-flexbox;
-     -ms-flexbox-wrap: wrap;
-     -ms-flexbox-direction:column;
-     -webkit-flex-flow:row wrap;
-     flex-flow: row wrap;
-     display: -webkit-box;
-     display: flex;
-   }
-   header div{
-     -webkit-box-flex:auto;
-     -ms-flex:auto;
-     flex: auto;
-     width: 200px;
-     background: #706c6c;
-     margin: 10px;
-     border-radius: 20px;
-     transition: 0.1s;
-     margin-bottom:25px;
-     
- box-shadow: 7px 7px 5px grey;
-
-   }
-   header div img{
-     width: 100%;
-     height: 240px;
-     border-radius: 20px;
-     
-   }
-   header div:hover{
- border-top-color:#77ff00;
- border-left-color:#77ff80;
- border-right-color:#77ff80;
- border-bottom-color: #77fff0;
-   }
-   @media screen and (max-width: 500px){
-     header div{
-       margin: 5px;
-     }
-     header{
-       padding:0;
-
-     }
-   }
-
-/* #endregion */
-   
-
    
 /* #region nav2 */
 
@@ -823,7 +772,15 @@ z-index: -1;
   <section class="home">
   </section>
   <div style="height: 1000px">
-
+    <div class="content1">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <div class="slider-text1">Izolime</div>
+                <div class="slider-text2">Dekorime</div>
+                <div class="slider-text3">Ngjyrosje</div>
+            </div>
+        </div>
+    </div>
 
 
     
@@ -878,8 +835,7 @@ z-index: -1;
     
     </center>
 
-
-    <br><br><br><br><br><br>
+    <div style="margin-top:150px;"></div>
     <script>
 
 $('.navTrigger').click(function () {
