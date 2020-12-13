@@ -564,21 +564,28 @@ background:rgb(107, 120, 133) ;
 .border{
     background:transparent;
     width:300px;
-    border:2px solid rgb(162, 210, 255);
+    border:5px solid rgb(162, 210, 255);
     height:300px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+    z-index:-1;
     position:absolute;
     display: inline-block;
     margin-top:30px;
     justify-content: center;
     align-items: center;
-    transform:rotate(-2deg);    
     border-bottom-color: rgb(154, 204, 252);
     border-right-color: rgb(142, 198, 250);
     border-top-color:rgb(120, 188, 252);
     border-right-color:rgb(93, 177, 255);
     z-index:-1;
+    animation-name: example;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+
+100% { transform:rotate(10deg);    }
 }
 /* #endregion */ 
 
